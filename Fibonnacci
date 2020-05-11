@@ -1,0 +1,23 @@
+package javapackage;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		// ex: 0,1,1,2,3,4,8
+		
+		/*int x=0; int y=1;
+		int z;*/
+		int x=0; int y=1;int num=10;int temp=0;
+		
+		do {
+			
+			temp=x+y;
+			x=y;	
+			y=temp;
+		}
+		while(temp<=num);
+		System.out.println(temp);
+
+	}
+
+}
